@@ -55,8 +55,9 @@ namespace People
 
             Console.WriteLine($"{Hired[0].ID}, {Hired[0].FirstName} {Hired[0].LastName} ,{Hired[0].DOB} ,{Hired[0].EmployeeID} , {Hired[0].Department}, {Hired[0].DateOfJoin}");
             Console.WriteLine($"{Hired[1].ID}, {Hired[1].FirstName} {Hired[1].LastName} ,{Hired[1].DOB} ,{Hired[1].EmployeeID}, {Hired[1].Department} ,{Hired[1].DateOfJoin}");
-            Console.WriteLine($"{Buyers[0].ID} , {Buyers[0].FirstName} {Buyers[0].LastName}, {Buyers[0].Address}, {Buyers[0].City}, {Buyers[0].State}");
-            Console.WriteLine($"{Buyers[1].ID} , {Buyers[1].FirstName} {Buyers[1].LastName}, {Buyers[1].Address}, {Buyers[1].City}, {Buyers[1].State}");
+            Console.WriteLine($"{Buyers[0].ID} , {Buyers[0].FirstName} {Buyers[0].LastName}, {Buyers[0].DOB}, {Buyers[0].Address}, {Buyers[0].City}, {Buyers[0].State}");
+            Console.WriteLine($"{Buyers[1].ID} , {Buyers[1].FirstName} {Buyers[1].LastName}, {Buyers[1].DOB}, {Buyers[1].Address}, {Buyers[1].City}, {Buyers[1].State}");
+
 
         }
     }
